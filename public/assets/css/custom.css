@@ -1,0 +1,140 @@
+#wrapper .sidebar {
+    background: #f8971c !important;
+}
+
+.sidebar .nav .nav {
+    background: #f8971c !important;
+}
+
+.sidebar .nav>li>a:hover,
+.sidebar .nav>li>a:focus,
+.sidebar .nav>li>a.active {
+    color: #fff;
+    background-color: #dc7c02;
+    border-left-color: #dc7c02;
+}
+
+.sidebar .nav>li>a {
+    color: #fff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.btn-dark,
+.btn.btn-primary {
+    background: #f8971c !important;
+    color: white;
+    border: 1px solid #f8971c !important;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.btn.btn-dark:hover,
+.btn.btn-primary:hover {
+    background: #dc7c02 !important;
+    color: white;
+    border: 1px solid #dc7c02 !important;
+}
+
+
+.panel {
+    box-shadow: 0 2px 6px rgb(0 0 0 / 19%) !important;
+}
+
+
+@media (max-width: 768px) {
+    .chart-row .pie-chart {
+        min-height: auto;
+    }
+}
+
+.custom-icon-wrap {
+    display: flex;
+}
+
+.custom-icon-wrap button {
+    margin-left: 1rem;
+}
+
+@media(max-width: 600px) {
+    .custom-icon-wrap {
+        flex-direction: column;
+    }
+
+    .custom-icon-wrap button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+}
+
+.per-page-form {
+    display: flex;
+}
+
+.per-page-form h5 {
+    width: 15%;
+}
+
+.per-page-form select {
+    width: 25%;
+}
+
+.b-search-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.b-search-form form {
+    display: flex;
+}
+
+.b-search-form form button {
+    margin-left: 0.3rem;
+}
+
+.top-per-page {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-per-page h5 {
+    margin-right: 0.6rem;
+}
+
+@media (max-width: 995px) {
+    .top-per-page {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 1100px) {
+    .per-page-form h5 {
+        width: 20%;
+    }
+}
+
+@media (max-width: 750px) {
+    .per-page-form {
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .b-search-form {
+        margin-top: 0.4rem;
+        justify-content: center;
+    }
+
+    .per-page-form select {
+        width: 33%;
+    }
+}

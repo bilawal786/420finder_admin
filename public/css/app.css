@@ -1,0 +1,255 @@
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    width: 20%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab a {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 10px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab a.active {
+    background-color: #eeeeee;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #eeeeee;
+    width: 80%;
+    border-left: none;
+    height: 300px;
+    padding: 30px;
+}
+
+
+.panel.panel-headline .panel-heading {
+    border-bottom: 1px solid #eee !important;
+    padding: 10px 20px !important;
+}
+
+.featuredImage img {
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 18px rgb(179 179 179 / 83%);
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+}
+
+.variationImage {
+    /*width: 280px;*/
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px #b1b1b1;
+}
+
+.btn.btn-primary {
+    background: #175193 !important;
+    border-color: #175193 !important;
+}
+
+.btn.btn-default {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.stOrder {
+    color: #000000;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: none !important;
+    border-color: black;
+    background-color: black !important;
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: none !important;
+    background-color: #175193 !important;
+    border-color: #175193 !important;
+    color: white !important;
+}
+
+tr td {
+    background-color: transparent !important;
+}
+
+div#DataTable_filter input[type="search"],
+div#DataTable_length select {
+    border-color: #e5e5e5 !important;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.text-red {
+    color: #175193;
+}
+
+.invalid-feedback {
+    color: #175193;
+}
+
+.metric .icon {
+    background-color: #000000 !important;
+    box-shadow: 3px 3px 3px #696868;
+}
+
+.navbar-default .brand {
+    padding: 0px 160px 0px 30px !important;
+}
+
+img.img-responsive.logo {
+    height: 46px;
+    padding-top: 7px;
+    margin-top: 10px;
+}
+
+#wrapper .sidebar {
+    background-color: #000000;
+}
+
+.sidebar .nav>li>a:hover,
+.sidebar .nav>li>a:focus,
+.sidebar .nav>li>a.active {
+    background-color: #000000;
+    border-left-color: #f8971c;
+}
+
+.sidebar .nav>li>a:hover i,
+.sidebar .nav>li>a:focus i,
+.sidebar .nav>li>a.active i {
+    color: white;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-top-color: #000 !important;
+}
+
+.layout-fullwidth #wrapper .btn-toggle-fullwidth {
+    color: #000000 !important;
+}
+
+span.select2.select2-container.select2-container--default.select2-container--focus {
+    width: 100% !important;
+}
+
+.topBorderRadius {
+    border-top: 5px solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 13px;
+}
+
+.variations {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px silver;
+}
+
+.text-red:hover {
+    color: #175193 !important;
+}
+
+.amsify-suggestags-input-area .amsify-select-tag.col-bg {
+    background: black !important;
+    color: white !important;
+}
+
+.order-total {
+    border: 2px solid #ebebeb;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 22px;
+    padding-bottom: 35px;
+}
+
+.order-total tr {
+    list-style: none;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+
+.collapse.in li a:hover {
+    background: initial !important;
+}
+
+.collapse.in li a {
+    border-left-color: #7f5116 !important;
+}
+
+/*Loader css*/
+.loader {
+    opacity: 1;
+    top: 0px;
+    display: block;
+    left: 0px;
+    z-index: 9999;
+    background-color: #fff;
+    background-image: url("../../images/loader.gif");
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}
+
+.loader .col-md-12,
+.loader span {
+    opacity: 0.5 !important;
+}
+
+.btn-dark,
+.btn-dark:hover {
+    background: black;
+    color: white;
+}
